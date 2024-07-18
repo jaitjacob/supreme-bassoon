@@ -20,6 +20,6 @@ This package contains a simple bash script that prints "Hello, World!".
 install -D -m 0755 %{SOURCE0} %{buildroot}/usr/bin/bello
 
 %files
-/usr/bin/hello-world
+/usr/bin/bello
 
 %changelog
